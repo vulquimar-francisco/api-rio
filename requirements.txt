@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-dotenv
+python-jose
+pydantic
+gunicorn
+fastapi-security
+limits
+bcrypt==3.2.0
+passlib[bcrypt]

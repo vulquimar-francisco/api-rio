@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  api:
+    image: api-rio:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    env_file:
+      - .env
+    volumes:
+      - "D:/data/COOTIC/COOTIC/SG84599/2024/07/02/0917297:/media"
+      - ./logs:/app/logs
+    deploy:
+      replicas: 3
+      update_config:
+        parallelism: 2
+        delay: 10s
+      restart_policy:
+        condition: on-failure

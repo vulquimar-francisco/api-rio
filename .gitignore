@@ -1,0 +1,19 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Docker logs
+logs/
+
+# Environment variables
+.env
+
+# IDE settings
+.vscod/
+.idea/
