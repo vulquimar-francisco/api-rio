@@ -1,1 +1,4 @@
-{}
+{
+    "workbench.tree.renderIndentGuides": "always", // Adiciona linhas guias de indentação
+    "explorer.compactFolders": false // Desabilita a visualização compacta das pastas
+}

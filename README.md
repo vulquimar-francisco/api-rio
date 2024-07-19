@@ -71,7 +71,8 @@ Após iniciar o projeto, você pode acessar a documentação interativa da API n
 
 ## Estrutura de Arquivos
 
-API RIO/
+```plaintext
+API_RIO/
 ├── app/
 │   ├── api/
 │   │   └── endpoints/
@@ -79,12 +80,19 @@ API RIO/
 │   ├── core/
 │   │   ├── auth.py
 │   │   └── logger.py
-│   └── main.py
+│   ├── services/
+│   │   ├── token_service.py
+│   │   └── user_service.py
+│   ├── models/
+│   │   └── user_models.py
+│   ├── main.py
 ├── .env
 ├── .env.example
 ├── Dockerfile
 ├── docker-compose.yml
 └── requirements.txt
+
+```
 
 ---
 
